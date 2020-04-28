@@ -1,4 +1,4 @@
-package br.com.codenation;
+package br.com.codenation.models;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
