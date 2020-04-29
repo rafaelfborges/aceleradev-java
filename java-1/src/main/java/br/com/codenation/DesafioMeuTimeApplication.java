@@ -31,7 +31,7 @@ public class DesafioMeuTimeApplication implements MeuTimeInterface {
 		Validador.validarHabilidade(nivelHabilidade);
 		Validador.validarSalario(salario);
 
-		times.getById(idTime);;
+		times.getById(idTime);
 		jogadores.create(new Jogador(id, idTime, nome, dataNascimento, nivelHabilidade, salario));
 	}
 
