@@ -71,7 +71,8 @@ public class EstacionamentoTest {
 
     @Test(expected = EstacionamentoException.class)
     public void naoDeveTerMotoristaDeMenor() {
-        Motorista motorista = Motorista.builder().withNome("Ada")
+        Motorista motorista = Motorista.builder()
+                .withNome("Ada")
                 .withIdade(17)
                 .withPontos(10)
                 .withHabilitacao("1231")
@@ -86,7 +87,8 @@ public class EstacionamentoTest {
 
     @Test(expected = EstacionamentoException.class)
     public void naoDeveEstacionarMotoristaSemPontos() {
-        Motorista motorista = Motorista.builder().withNome("Ada")
+        Motorista motorista = Motorista.builder()
+                .withNome("Ada")
                 .withIdade(25)
                 .withPontos(30)
                 .withHabilitacao("1231")
