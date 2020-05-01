@@ -9,7 +9,6 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 public class EstacionamentoTest {
-
     private Estacionamento estacionamento;
 
     @Before
@@ -19,7 +18,8 @@ public class EstacionamentoTest {
 
     @Test(expected = NullPointerException.class)
     public void deveRetornarErroQuandoMotoristaNaoTemHabilitacao() {
-        Motorista.builder().withNome("Ada")
+        Motorista.builder()
+                .withNome("Ada")
                 .withIdade(17)
                 .withPontos(10)
                 .build();
@@ -46,21 +46,26 @@ public class EstacionamentoTest {
                 .withPontos(-1);
     }
 
-
     @Test(expected = NullPointerException.class)
     public void deveRetornarErroQuandoNaoTemPlaca() {
-        Carro.builder().withCor(Cor.COLORIDO).build();
+        Carro.builder()
+                .withCor(Cor.COLORIDO)
+                .build();
     }
 
     @Test(expected = NullPointerException.class)
     public void deveRetornarErroQuandoNaoTemCor() {
-        Carro.builder().withPlaca("234234").build();
+        Carro.builder()
+                .withPlaca("234234")
+                .build();
     }
-
 
     @Test(expected = EstacionamentoException.class)
     public void naoDeveTerCarroAutonomo() {
-        Carro carro = Carro.builder().withCor(Cor.COLORIDO).withPlaca("123").build();
+        Carro carro = Carro.builder()
+                .withCor(Cor.COLORIDO)
+                .withPlaca("123")
+                .build();
         estacionamento.estacionar(carro);
     }
 
@@ -71,7 +76,11 @@ public class EstacionamentoTest {
                 .withPontos(10)
                 .withHabilitacao("1231")
                 .build();
-        Carro carro = Carro.builder().withCor(Cor.PRETO).withPlaca("123").withMotorista(motorista).build();
+        Carro carro = Carro.builder()
+                .withCor(Cor.PRETO)
+                .withPlaca("123")
+                .withMotorista(motorista)
+                .build();
         estacionamento.estacionar(carro);
     }
 
@@ -82,74 +91,45 @@ public class EstacionamentoTest {
                 .withPontos(30)
                 .withHabilitacao("1231")
                 .build();
-        Carro carro = Carro.builder().withCor(Cor.BRANCO).withPlaca("123").withMotorista(motorista).build();
+        Carro carro = Carro.builder()
+                .withCor(Cor.BRANCO)
+                .withPlaca("123")
+                .withMotorista(motorista)
+                .build();
         estacionamento.estacionar(carro);
     }
 
     @Test
     public void deveEstacionar() {
-        Motorista motorista = Motorista.builder().withNome("Ada").withIdade(20)
+        Motorista motorista = Motorista.builder()
+                .withNome("Ada")
+                .withIdade(20)
                 .withPontos(3)
                 .withHabilitacao("1231")
                 .build();
-        Carro carro = Carro.builder().withCor(Cor.BRANCO).
-                withPlaca("123")
+        Carro carro = Carro.builder()
+                .withCor(Cor.BRANCO)
+                .withPlaca("123")
                 .withMotorista(motorista)
                 .build();
 
         estacionamento.estacionar(carro);
 
         assertEquals(1, estacionamento.carrosEstacionados());
-
     }
 
     @Test
     public void naoDeveUltrapassarEstacionamento() {
-        Motorista ada = Motorista.builder().withNome("Ada").withIdade(20)
+        Motorista ada = Motorista.builder()
+                .withNome("Ada")
+                .withIdade(20)
                 .withPontos(3)
                 .withHabilitacao("1231")
                 .build();
 
-        Carro carroBranco = Carro.builder().withCor(Cor.BRANCO).
-                withPlaca("123")
-                .withMotorista(ada)
-                .build();
-
-        estacionamento.estacionar(carroBranco);
-
-        for (int indice = 1; indice <= 10; indice++) {
-
-            Motorista motorista = Motorista.builder()
-                    .withNome("Motorista " + indice)
-                    .withIdade(20)
-                    .withPontos(3)
-                    .withHabilitacao(Long.toString(current().nextLong()))
-                    .build();
-
-            Carro carro = Carro.builder().withCor(Cor.BRANCO).
-                    withPlaca("123")
-                    .withMotorista(motorista)
-                    .build();
-
-            estacionamento.estacionar(carro);
-        }
-
-        assertEquals(10, estacionamento.carrosEstacionados());
-        assertFalse(estacionamento.carroEstacionado(carroBranco));
-    }
-
-
-    @Test
-    public void casoPrimeiroMotoristaSejaSeniorEleNaoDeveSair() {
-
-        Motorista ada = Motorista.builder().withNome("Ada")
-                .withIdade(60)
-                .withPontos(3)
-                .withHabilitacao("1231")
-                .build();
-
-        Carro carroBranco = Carro.builder().withCor(Cor.BRANCO).
-                withPlaca("123")
+        Carro carroBranco = Carro.builder()
+                .withCor(Cor.BRANCO)
+                .withPlaca("123")
                 .withMotorista(ada)
                 .build();
 
@@ -165,8 +145,47 @@ public class EstacionamentoTest {
                     .build();
 
             Carro carro = Carro.builder()
-                    .withCor(getCor()).
-                            withPlaca("123")
+                    .withCor(Cor.BRANCO)
+                    .withPlaca("123")
+                    .withMotorista(motorista)
+                    .build();
+
+            estacionamento.estacionar(carro);
+        }
+
+        assertEquals(10, estacionamento.carrosEstacionados());
+        assertFalse(estacionamento.carroEstacionado(carroBranco));
+    }
+
+    @Test
+    public void casoPrimeiroMotoristaSejaSeniorEleNaoDeveSair() {
+        Motorista ada = Motorista.builder()
+                .withNome("Ada")
+                .withIdade(60)
+                .withPontos(3)
+                .withHabilitacao("1231")
+                .build();
+
+        Carro carroBranco = Carro.builder()
+                .withCor(Cor.BRANCO)
+                .withPlaca("123")
+                .withMotorista(ada)
+                .build();
+
+        estacionamento.estacionar(carroBranco);
+
+        for (int indice = 1; indice <= 10; indice++) {
+
+            Motorista motorista = Motorista.builder()
+                    .withNome("Motorista " + indice)
+                    .withIdade(20)
+                    .withPontos(3)
+                    .withHabilitacao(Long.toString(current().nextLong()))
+                    .build();
+
+            Carro carro = Carro.builder()
+                    .withCor(getCor())
+                    .withPlaca("123")
                     .withMotorista(motorista)
                     .build();
 
@@ -177,18 +196,19 @@ public class EstacionamentoTest {
         assertTrue(estacionamento.carroEstacionado(carroBranco));
     }
 
-
     @Test(expected = EstacionamentoException.class)
     public void casoTodosSejamSeniorONovoMotoristaNaoTeraVaga() {
 
-        Motorista ada = Motorista.builder().withNome("Ada")
+        Motorista ada = Motorista.builder()
+                .withNome("Ada")
                 .withIdade(60)
                 .withPontos(3)
                 .withHabilitacao("1231")
                 .build();
 
-        Carro carroBranco = Carro.builder().withCor(Cor.BRANCO).
-                withPlaca("123")
+        Carro carroBranco = Carro.builder()
+                .withCor(Cor.BRANCO)
+                .withPlaca("123")
                 .withMotorista(ada)
                 .build();
 
@@ -204,18 +224,16 @@ public class EstacionamentoTest {
                     .build();
 
             Carro carro = Carro.builder()
-                    .withCor(getCor()).
-                            withPlaca("123")
+                    .withCor(getCor())
+                    .withPlaca("123")
                     .withMotorista(motorista)
                     .build();
 
             estacionamento.estacionar(carro);
         }
-
     }
 
     private Cor getCor() {
         return Cor.values()[current().nextInt(0, 2)];
     }
-
 }

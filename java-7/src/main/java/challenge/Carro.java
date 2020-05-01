@@ -81,6 +81,8 @@ public class Carro {
         }
 
         public Carro build() {
+            if(placa == null || cor == null)
+                throw new NullPointerException();
             return new Carro(motorista, placa, cor);
         }
     }

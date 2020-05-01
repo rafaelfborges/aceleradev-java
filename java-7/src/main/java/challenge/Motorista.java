@@ -93,6 +93,11 @@ public class Motorista {
         }
 
         public Motorista build() {
+            if(habilitacao == null || nome == null)
+                throw new NullPointerException();
+            if(idade < 1 || pontos < 0)
+                throw new IllegalArgumentException();
+
             return new Motorista(nome, idade, pontos, habilitacao);
         }
     }
