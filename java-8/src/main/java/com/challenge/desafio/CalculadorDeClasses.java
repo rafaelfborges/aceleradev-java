@@ -26,9 +26,7 @@ public class CalculadorDeClasses implements Calculavel {
     }
 
     private BigDecimal calcBigDecimal(Object objeto, Class<? extends Annotation> annotation){
-        Class<?> classe = objeto.getClass();
-
-        return Arrays.stream(classe.getDeclaredFields())
+        return Arrays.stream(objeto.getClass().getDeclaredFields())
                 .filter(field -> field.getType().equals(BigDecimal.class))
                 .filter(field -> field.isAnnotationPresent(annotation))
                 .map(field -> {
