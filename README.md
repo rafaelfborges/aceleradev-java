@@ -16,3 +16,6 @@ Meu repositório de desafios do programa AceleraDev de Java da Codenation. Algun
 
 ###### Módulo 3
 - [Calculador de Atributos de Classe](java-8/)
+
+###### Módulo 4
+- [Criação de Entidades de Banco de Dados](java-9/)
