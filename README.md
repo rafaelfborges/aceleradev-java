@@ -22,3 +22,4 @@ Meu repositório de desafios do programa AceleraDev de Java da Codenation. Algun
 
 ###### Módulo 5
 - [Criando e manipulando entidades no Banco de dados com Spring](java-10/)
+- [Order Service](java-15/)
