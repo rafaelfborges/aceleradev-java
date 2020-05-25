@@ -21,4 +21,4 @@ Meu repositório de desafios do programa AceleraDev de Java da Codenation. Algun
 - [Criação de Entidades de Banco de Dados](java-9/)
 
 ###### Módulo 5
-- [Criação de Entidades de Banco de Dados com Spring](java-10/)
+- [Criando e manipulando entidades no Banco de dados com Spring](java-10/)
