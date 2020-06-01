@@ -1,5 +1,7 @@
-package challenge;
+package challenge.controller;
 
+import challenge.service.QuoteService;
+import challenge.model.Quote;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class QuoteController {

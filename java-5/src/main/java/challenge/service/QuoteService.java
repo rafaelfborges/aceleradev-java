@@ -1,4 +1,6 @@
-package challenge;
+package challenge.service;
+
+import challenge.model.Quote;
 
 public interface QuoteService {
 
