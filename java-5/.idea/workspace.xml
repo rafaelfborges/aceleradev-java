@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c016a859-6d50-446c-bde9-f081ed1eaf10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/challenge/Quote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/challenge/QuoteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/challenge/QuoteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/controller/QuoteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/model/Quote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/repository/QuoteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/service/QuoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/QuoteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/challenge/service/QuoteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/challenge/QuoteServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/challenge/QuoteControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenge/QuoteControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/challenge/QuoteIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/challenge/QuoteIntegrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +43,57 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="h2" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="challenge" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Tests in 'java-5.test'">
+    <configuration name="Tests in 'java-5.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="java-5.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="challenge.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'java-5.test'" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -51,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591024606776</updated>
-      <workItem from="1591024608915" duration="48000" />
+      <workItem from="1591024608915" duration="5301000" />
     </task>
     <servers />
   </component>
@@ -60,5 +114,59 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="859" y="365" key="#Assign_Data_Sources" timestamp="1591028744106">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="859" y="365" key="#Assign_Data_Sources/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1591028744106" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591028814442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1591028814442" />
+    <state x="690" y="296" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1591030841930">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="296" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1591030841930" />
+    <state x="725" y="375" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591030842907">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="725" y="375" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1591030842907" />
+    <state width="1877" height="404" key="GridCell.Tab.0.bottom" timestamp="1591030890009">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="404" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1591030890009" />
+    <state width="1877" height="404" key="GridCell.Tab.0.center" timestamp="1591030890009">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="404" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1591030890009" />
+    <state width="1877" height="404" key="GridCell.Tab.0.left" timestamp="1591030890009">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="404" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1591030890009" />
+    <state width="1877" height="404" key="GridCell.Tab.0.right" timestamp="1591030890009">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="404" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1591030890009" />
+    <state width="1877" height="404" key="GridCell.Tab.1.bottom" timestamp="1591030890006">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="404" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1591030890006" />
+    <state width="1877" height="404" key="GridCell.Tab.1.center" timestamp="1591030890006">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="404" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1591030890006" />
+    <state width="1877" height="404" key="GridCell.Tab.1.left" timestamp="1591030890006">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="404" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1591030890006" />
+    <state width="1877" height="404" key="GridCell.Tab.1.right" timestamp="1591030890006">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="404" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1591030890006" />
+    <state x="-1306" y="0" width="720" height="1023" maximized="true" key="dock-window-1" timestamp="1591030595410">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1306" y="0" width="720" height="1023" maximized="true" key="dock-window-1/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1591030595410" />
   </component>
 </project>
