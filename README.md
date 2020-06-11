@@ -26,3 +26,7 @@ Meu repositório de desafios do programa AceleraDev de Java da Codenation. Algun
 
 ##### Módulo 6
 - [Criando endpoints com Spring](java-11/)
+- [Gerador de frases do Monty Python utilizando Spring Boot e JPA](java-5/)
+
+##### Módulo 7
+- [Oauth2 com Spring](java-12/)
