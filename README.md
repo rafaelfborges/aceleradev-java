@@ -30,3 +30,6 @@ Meu repositório de desafios do programa AceleraDev de Java da Codenation. Algun
 
 ##### Módulo 7
 - [Oauth2 com Spring](java-12/)
+
+##### Módulo 8
+- [Refatorando Formas de Pagamento](java-16/)
