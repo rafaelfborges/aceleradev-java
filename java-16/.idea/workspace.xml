@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33b04013-4def-4cd5-8ebf-512c453c833d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/codenation/paymentmethods/Cash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/codenation/paymentmethods/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/codenation/paymentmethods/DebitCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/codenation/paymentmethods/Transfer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/codenation/BillingProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/codenation/BillingProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/codenation/paymentmethods/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/codenation/paymentmethods/PaymentMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/Downloads/artigo-solid-medium" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Projetos/errorcentral" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
@@ -67,7 +58,8 @@
       <workItem from="1591895532256" duration="3245000" />
       <workItem from="1592063018111" duration="2430000" />
       <workItem from="1592077182597" duration="1272000" />
-      <workItem from="1592144130407" duration="7455000" />
+      <workItem from="1592144130407" duration="8669000" />
+      <workItem from="1592255239574" duration="1546000" />
     </task>
     <servers />
   </component>
@@ -87,10 +79,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1591877109069" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1592145373222">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1592255490268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1592145373222" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1592255490268" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1591895519244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
