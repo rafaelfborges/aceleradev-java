@@ -31,3 +31,7 @@ Utilize a lib [Spring Security OAuth2 AutoConfigure](https://mvnrepository.com/a
 5. `GET /user`: deverá ser acessado sem autenticação.
 
 6. `GET /company`: deverá ser acessado apenas com autenticação. Utilize a autenticação Bearer + token para conseguir acesso.
+
+## Conteúdos úteis para o desafio
+- https://www.youtube.com/watch?v=UsM2BY20Ux4
+- https://academiadev.gitbook.io/joinville/seguranca/oauth2
