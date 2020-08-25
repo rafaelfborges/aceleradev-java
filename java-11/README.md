@@ -16,3 +16,9 @@ Neste desafio você receberá um projeto Maven pré-configurado com Springboot, 
 
 ## Observações
 - Baixe o plugin do [Lombok](https://projectlombok.org/setup/intellij) e [Mapstruct](https://mapstruct.org/documentation/ide-support/) na sua IDE
+
+## Conteúdos úteis para o desafio
+- https://spring.io/guides/tutorials/rest/
+- https://www.baeldung.com/mapstruct
+- https://spring.io/guides/gs/rest-service/
+- https://www.baeldung.com/rest-with-spring-series
