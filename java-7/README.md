@@ -30,3 +30,9 @@ Para este desafio você precisará de:
 - Java 8 (ou superior)
 - Git
 
+## Conteúdos úteis para o desafio
+- https://www.devmedia.com.br/trabalhando-com-string-string-em-java/21737
+- https://pt.wikibooks.org/wiki/Java/Tipos_de_dados_prim%C3%A1rios
+- https://www.devmedia.com.br/tipos-de-dados-por-valor-e-por-referencia-em-java/25293
+- https://www.devmedia.com.br/java-e-domain-driven-design-na-pratica-java-magazine-87/19019
+- https://dzone.com/refcardz/getting-started-domain-driven?chapter=1
