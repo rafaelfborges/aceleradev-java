@@ -70,3 +70,10 @@ O formato esperado em ambas URLs é uma _Response JSON_:
 Executar o comando `gradlew bootRun`
 
 A aplicação estará disponível em `http://localhost:8080`
+
+## Conteúdos úteis para o desafio
+- https://spring.io/projects/spring-boot
+- https://spring.io/guides/gs/rest-service
+- https://spring.io/guides/gs/accessing-data-jpa
+- https://docs.spring.io/spring-data/jpa/docs/current/reference/html
+- https://dzone.com/articles/jpa-tutorial-mapping-entities-0
