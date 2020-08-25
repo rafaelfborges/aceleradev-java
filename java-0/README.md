@@ -27,3 +27,6 @@ Para instalar no MacOS, usando o HomeBrew basta executar:
     brew cask install java
 
 Para instalar no Linux e no Windows, confira os links na seção de conteúdo.
+
+## Conteúdos úteis para o desafio
+- https://www.caelum.com.br/apostila-java-orientacao-objetos/
