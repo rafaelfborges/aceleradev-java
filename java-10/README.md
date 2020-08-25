@@ -59,3 +59,11 @@ Crie classes de serviço implementado as interfaces acima, e também as classes 
 ##  Informações adicionais:
 - O projeto deve `buildar` e `iniciar` sem erros
 - Utilize o comando `mvn spring-boot:run` para iniciar a aplicação
+
+## Conteúdos úteis para o desafio
+- https://www.baeldung.com/spring-data-annotations
+- https://docs.spring.io/spring-data/jpa/docs/current/reference/html/
+- https://www.baeldung.com/database-auditing-jpa
+- http://techie-mixture.blogspot.com/2018/01/spring-data-jpa-auditing-auto-save.html
+- https://www.baeldung.com/spring-data-jpa-query
+- https://www.petrikainulainen.net/programming/spring-framework/spring-data-jpa-tutorial-introduction-to-query-methods/
