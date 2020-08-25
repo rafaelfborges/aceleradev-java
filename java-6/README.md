@@ -31,3 +31,7 @@ Para este desafio você precisará de:
 - Java 8 (ou superior)
 - Git
 
+## Conteúdos úteis para o desafio
+- https://www.devmedia.com.br/trabalhando-com-string-string-em-java/21737
+- https://pt.wikibooks.org/wiki/Java/Tipos_de_dados_prim%C3%A1rios
+- https://www.devmedia.com.br/tipos-de-dados-por-valor-e-por-referencia-em-java/25293
