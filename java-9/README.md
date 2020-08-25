@@ -3,7 +3,12 @@
 Este desafio contém um projeto Maven pré-configurado com Springboot, Spring-JPA e banco de dados H2.
 Abaixo você encontra um Modelo Entidade Relacionamento de um banco de dados utilizado pela Code Nation.
 
-[Clique aqui para visualizar o modelo de entidade relacionamento](https://codenation-challenges.s3-us-west-1.amazonaws.com/java-9/codenation-sample.png)
+<details>
+  <summary>Clique aqui para visualizar o modelo de entidade relacionamento</summary>
+  
+  ![Entity Model](https://github.com/rafaelfborges/aceleradev-java/blob/master/codenation-sample_desafio_java9.png)
+
+</details>
 
 Você utilizará o package `entity` para criar as entidades JPA para o modelo proposto.
 
