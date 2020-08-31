@@ -2,7 +2,12 @@
 
 Neste desafio você receberá um projeto Maven pré-configurado com Springboot, Spring-JPA e banco de dados H2. Este projeto também contém as classes de entidade `entity` já criadas para o Modelo de Entidade Relacionamento abaixo:
 
-[Clique aqui para visualizar o modelo de entidade relacionamento](https://codenation-challenges.s3-us-west-1.amazonaws.com/java-10/codenation-sample-2.png)
+<details>
+  <summary>Clique aqui para visualizar o modelo de entidade relacionamento</summary>
+  
+  ![Entity Model](https://github.com/rafaelfborges/aceleradev-java/blob/master/codenation-sample_desafio_java9.png)
+
+</details>
 
 No pacote `service` estão disponíveis interfaces de serviço para cada uma das classes `entity`.
 São elas:
